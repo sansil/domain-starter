@@ -260,7 +260,7 @@ const App = () => {
 				<input
 					type="text"
 					value={record}
-					placeholder='whats ur ninja power?'
+					placeholder='whats ur hero power?'
 					onChange={e => setRecord(e.target.value)}
 				/>
 				{/* If the editing variable is true, return the "Set record" and "Cancel" button */}
@@ -333,7 +333,7 @@ const App = () => {
 				<div className="header-container">
 					<header>
 						<div className="left">
-							<p className="title">🐱‍👤 Ninja Name Service</p>
+							<p className="title">🐱‍👤 Hero Name Service</p>
 							<p className="subtitle">Your immortal API on the blockchain!</p>
 						</div>
 						{/* Display a logo and wallet connection status*/}
